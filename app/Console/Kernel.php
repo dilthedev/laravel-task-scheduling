@@ -30,6 +30,18 @@ class Kernel extends ConsoleKernel
 
         $schedule->command('command:updatePckgVal')->everyMinute();
 
+        //->everyHour()
+        //->withoutOverlapping();
+
+
+        // ->Sundays()
+        //            ->at('00:00')
+        //                         ->onOneServer();
+
+        //->runInBackground();
+
+
+
     }
 
     /**
